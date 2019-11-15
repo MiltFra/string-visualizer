@@ -15,6 +15,20 @@ $ cabal v2-run <repo-directory> <your-input-file>
 ```
 Don't worry, this may take a while.
 
+## Demos
+
+I have included some interesting files to play with this program. They are located in the `demo` directory.
+
+`e_1000.txt` contains the first 1000 digits of Euler's number in plain text.
+`pi_1000.txt` and `pi_10000.txt` contain the first 1000 / 10000 digits of Pi in plain text.
+`gutenberg1.txt` contains an arbitrary book from [gutenberg.org](https://gutenberg.org).
+`hex.txt` contains the hex-representation of the [Wikipedia article about trees](https://en.wikipedia.org/wiki/Tree).
+
+To use them `cd` into the directory and run
+```
+$ cabal v2-run . demo/<file>
+```
+
 ## Application
 
 What is this program good for? 
