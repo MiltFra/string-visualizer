@@ -7,7 +7,9 @@ A program that let's you visualize the transitions between alphanumerical charac
 There are no precompiled releases because the program is configured by changing `src/Config.hs` and recompiling. 
 Therefore you will have to compile the program yourself.
 
-You need to have a current version (tested on 2.4.0.0) of `cabal-install` installed on your machine.
+### Latest cabal version
+
+You need to have a current version (one that provides the `v2-*` commands) of `cabal-install` installed on your machine, e.g. the current [ArchLinux package](https://www.archlinux.org/packages/?name=cabal-install). If your system does not yet support this, have a look at the next section.
 
 Then you can do:
 ```
