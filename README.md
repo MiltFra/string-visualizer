@@ -19,6 +19,8 @@ Don't worry, this may take a while.
 
 If your system does not yet support the newer versions of `cabal-install` (the ones that do not provide the `v2-*` commands), you have to resolve the dependencies manually. I've tested this on my schools Scientific Linux machines with success.
 
+You can get a binary from [the official download page](https://www.haskell.org/cabal/download.html).
+
 The dependencies are:
 ```
 base >= 4.8 && < 4.13
