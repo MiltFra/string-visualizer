@@ -66,3 +66,22 @@ The third important improvement has only to do with performance. The program in 
 As you can see, this program is licensed under GPL3.
 
 I invite you to make whatever changes you like and share them with the world as long as you mention me and re-publish your code as free and open-source software.
+
+## Examples
+
+![Pi](imgs/pi_primary_curves.png)
+![Pi](imgs/pi_primary_lines.png)
+![Pi](imgs/pi_primary_lines2.png)
+![Pi](imgs/pi_secondary_curves.png)
+![Pi](imgs/pi_secondary_curves2.png)
+![Pi](imgs/pi_secondary_curves3.png)
+![Pi](imgs/pi_teriary_curves.png)
+![Pi](imgs/pi_teriary_curves2.png)
+![Pi](imgs/pi_teriary_curves3.png)
+![Pi](imgs/pi_teriary_curves4.png)
+![Pi](imgs/pi_other_curves.png)
+![Hex](imgs/hex_other_curves.png)
+![Hex](imgs/hex_other_curves2.png)
+![Hex](imgs/hex_other_curves3.png)
+![Hex](imgs/hex_other_curves4.png)
+![A book](imgs/gutenberg_other_curves.png)
