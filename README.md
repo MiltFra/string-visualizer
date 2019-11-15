@@ -15,6 +15,28 @@ $ cabal v2-run <repo-directory> <your-input-file>
 ```
 Don't worry, this may take a while.
 
+### Older cabal versions
+
+If your system does not yet support the newer versions of `cabal-install` (the ones that do not provide the `v2-*` commands), you have to resolve the dependencies manually. I've tested this on my schools Scientific Linux machines with success.
+
+The dependencies are:
+```
+base >= 4.8 && < 4.13
+sort == 1.0.*
+gloss == 1.13.*
+```
+
+Just install them by running
+```
+$ cabal update && cabal install base-4.8 sort-1.0 gloss-1.13
+```
+
+Now you can do
+```
+$ cabal run <input-file>
+```
+in the package directory.
+
 ## Demos
 
 I have included some interesting files to play with this program. They are located in the `demo` directory.
@@ -28,6 +50,11 @@ To use them `cd` into the directory and run
 ```
 $ cabal v2-run . demo/<file>
 ```
+or
+```
+$ cabal run demo/<file>
+```
+respectively.
 
 ## Application
 
