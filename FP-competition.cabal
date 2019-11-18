@@ -19,7 +19,7 @@ executable FP-competition
   main-is:             Main.hs
   other-modules:       Circle, Parser, Colors, Curve, Config, Renderer
   -- other-extensions:
-  build-depends:       base >=4.12 && <4.13, gloss==1.13.*, QuickCheck, sort
+  build-depends:       base >=4.8 && <4.13, gloss==1.13.*, QuickCheck, sort
   hs-source-dirs:      src
   default-language:    Haskell2010
   ghc-options:         
