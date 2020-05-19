@@ -86,7 +86,7 @@ If you screw something up badly, come back and look at the defaults.
 ## Possible Improvements
 
 The biggest one here is the **curve algorithm**. At the moment it uses some circly lines which are the result of a simple algorithm and some parameters.
-What I would actually like to do though is use proper parabolas to make everything, especially the edge cases, smoother. You can already find some fragments of that in the code but I haven't gotten around to implementing it properly, yet.
+What I would actually like to do, though, is using proper parabolas to make everything, especially the edge cases, smoother. You can already find some fragments of that in the code but I haven't gotten around to implementing it properly, yet. (Turns out it is a bit trickier than I'd like it to be because it has little to do with reasoning and just a lot with general equations that get *very* messy.)
 
 Another big improvement would be a **configuration parser**. This would allow me to publish precompiled releases which would still be as functional. Additionally this would mean that running the program would be faster because we can get rid of the compile times.
 
